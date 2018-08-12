@@ -1,0 +1,34 @@
+#headerArea{background: #000; margin-bottom: 87px}
+#content{width: 1400px; height: 100%; padding: 100px 0 50px 0; margin: 0 auto;}
+
+.main{width: 100%; height: 600px}
+
+@media screen and (max-width:1280px) {
+    #content{width: 100%; }  
+}
+
+/* 2. Normal PC */
+@media screen and (max-width:1280px) {
+   
+}
+
+/* 3. Tablet */
+@media screen and (max-width:1024px) {
+    
+}
+
+/* 4. Small Tablet */
+@media screen and (max-width:768px) {
+    
+}
+
+/* 5. Mobile - Landscape */
+@media screen and (max-width:640px) {
+	
+}
+
+/* 6. Mobile - Portrait */
+@media screen and (max-width:480px) {
+
+}
+
