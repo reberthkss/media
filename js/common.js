@@ -1,3 +1,7 @@
+function loadingSpinner() {
+  $("#loading").show();
+}
+
 $(document).ready(function() {
   //gnb
   $(".gnbBtn").toggle(
@@ -39,8 +43,4 @@ $(document).ready(function() {
       .stop()
       .animate({ scrollTop: 0 }, 300);
   });
-
-  window.onload = (function() {
-    $("#loading").hide();
-  })();
 });
