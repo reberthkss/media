@@ -91,8 +91,14 @@ $(document).ready(function() {
 
     scrnHth = $(window).height();
 
-    $("html,body")
-      .stop()
-      .animate({ scrollTop: scrnHth }, 1000);
+    if (scrnHth > 768) {
+      $("html,body")
+        .stop()
+        .animate({ scrollTop: scrnHth - 75 }, 1000);
+    } else {
+      $("html,body")
+        .stop()
+        .animate({ scrollTop: scrnHth - 87 }, 1000);
+    }
   });
 });
