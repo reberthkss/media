@@ -40,3 +40,9 @@ $(document).ready(function() {
       .animate({ scrollTop: 0 }, 300);
   });
 });
+
+//loading
+$(window).load(function() {
+  $("#loading").hide();
+  $("#wrap, #mVideo, #skipNav").show();
+});
