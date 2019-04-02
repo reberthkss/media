@@ -1,7 +1,3 @@
-function loadingSpinner() {
-  $("#loading").show();
-}
-
 $(document).ready(function() {
   //gnb
   $(".gnbBtn").toggle(

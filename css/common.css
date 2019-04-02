@@ -86,7 +86,7 @@ overflow:hidden; text-align:center; text-decoration:none; color:#333; font-size:
 #footerArea ul li:nth-child(4) a{width: 35px; background-position: -172px 0}
 #footerArea ul li a:hover{opacity: .5}
 
-#scrollTop{position: fixed; bottom: 20px; right:20px; width: 40px; height: 40px; z-index: 100; display: none}
+#scrollTop{position: fixed; bottom: 20px; right:20px; width: 40px; height: 40px; z-index: 100}
 #scrollTop a{display: block; border: 1px solid #333; background: rgba(255,255,255,.7)}
 #scrollTop a, #scrollTop img{width: 100%; height:100%}
 

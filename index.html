@@ -33,6 +33,10 @@
         );
       } catch (e) {}
       // ]]>
+
+      $(window).load(function() {
+        $("#loading").hide();
+      });
     </script>
 
     <!--[if lt IE 9]>
@@ -41,7 +45,7 @@
     <![endif]-->
   </head>
 
-  <body onload="loadingSpinner()">
+  <body>
     <div id="loading">
       <img src="images/loading2.gif" alt="Loading.." />
     </div>
