@@ -73,7 +73,7 @@ $(document).ready(function() {
 
     if (scrnWth > 768 && current == false) {
       $("#mVideo").show();
-      $("#mVideo").attr("src", "images/mainVideo.mp4");
+      $("#mVideo").attr("src", "images/main.mp4");
       $("#mImg").hide();
       current = true;
     }
